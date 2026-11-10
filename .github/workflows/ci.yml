@@ -35,7 +35,9 @@ jobs:
         run: mvn -B verify
       - name: Generate sample forensic report
         run: |
-          export CLOUDTRACE_DB_URL=$CLOUDTRACE_TEST_MYSQL_URL CLOUDTRACE_DB_USER=root CLOUDTRACE_DB_PASSWORD=root
+          # fresh database so case numbering does not collide with test data
+          mysql -h 127.0.0.1 -uroot -proot -e "CREATE DATABASE cloudtrace_demo"
+          export CLOUDTRACE_DB_URL="jdbc:mysql://localhost:3306/cloudtrace_demo?serverTimezone=UTC" CLOUDTRACE_DB_USER=root CLOUDTRACE_DB_PASSWORD=root
           java -jar target/cloudtrace.jar case-open --title "CI sample" --investigator github-actions
           java -jar target/cloudtrace.jar import --case 1 --path sample/cloudtrail-incident.json
           java -jar target/cloudtrace.jar analyze --case 1
