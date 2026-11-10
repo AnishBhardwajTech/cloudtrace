@@ -1,0 +1,2053 @@
+{
+ "Records": [
+  {
+   "eventVersion": "1.09",
+   "userIdentity": {
+    "type": "IAMUser",
+    "userName": "alice",
+    "arn": "arn:aws:iam::111122223333:user/alice",
+    "accountId": "111122223333"
+   },
+   "eventTime": "2026-10-14T06:21:00Z",
+   "eventSource": "ec2.amazonaws.com",
+   "eventName": "DescribeInstances",
+   "awsRegion": "us-east-1",
+   "sourceIPAddress": "203.0.113.10",
+   "userAgent": "aws-cli/2.17.0",
+   "requestParameters": null,
+   "responseElements": null,
+   "eventID": "23a5ef88-ef02-090b-bfde-fc1586ce03f9",
+   "eventType": "AwsApiCall",
+   "recipientAccountId": "111122223333"
+  },
+  {
+   "eventVersion": "1.09",
+   "userIdentity": {
+    "type": "AssumedRole",
+    "arn": "arn:aws:sts::111122223333:assumed-role/ci-deploy/github-actions",
+    "accountId": "111122223333"
+   },
+   "eventTime": "2026-10-14T06:28:00Z",
+   "eventSource": "ec2.amazonaws.com",
+   "eventName": "DescribeSecurityGroups",
+   "awsRegion": "us-east-1",
+   "sourceIPAddress": "140.82.112.4",
+   "userAgent": "aws-cli/2.17.0",
+   "requestParameters": null,
+   "responseElements": null,
+   "eventID": "9aea6429-b149-1e24-3192-b70442594052",
+   "eventType": "AwsApiCall",
+   "recipientAccountId": "111122223333"
+  },
+  {
+   "eventVersion": "1.09",
+   "userIdentity": {
+    "type": "IAMUser",
+    "userName": "bob",
+    "arn": "arn:aws:iam::111122223333:user/bob",
+    "accountId": "111122223333"
+   },
+   "eventTime": "2026-10-14T06:40:00Z",
+   "eventSource": "ec2.amazonaws.com",
+   "eventName": "DescribeInstances",
+   "awsRegion": "us-east-1",
+   "sourceIPAddress": "203.0.113.22",
+   "userAgent": "aws-cli/2.17.0",
+   "requestParameters": null,
+   "responseElements": null,
+   "eventID": "ca02135e-92b1-d3f2-8ede-0d7ac3baea9e",
+   "eventType": "AwsApiCall",
+   "recipientAccountId": "111122223333"
+  },
+  {
+   "eventVersion": "1.09",
+   "userIdentity": {
+    "type": "IAMUser",
+    "userName": "alice",
+    "arn": "arn:aws:iam::111122223333:user/alice",
+    "accountId": "111122223333"
+   },
+   "eventTime": "2026-10-14T07:00:00Z",
+   "eventSource": "signin.amazonaws.com",
+   "eventName": "ConsoleLogin",
+   "awsRegion": "us-east-1",
+   "sourceIPAddress": "203.0.113.10",
+   "userAgent": "Mozilla/5.0",
+   "requestParameters": null,
+   "responseElements": {
+    "ConsoleLogin": "Success"
+   },
+   "eventID": "9620bf0d-c380-84a0-3d93-fd4c804c25d6",
+   "eventType": "AwsConsoleSignIn",
+   "recipientAccountId": "111122223333",
+   "additionalEventData": {
+    "MFAUsed": "Yes"
+   }
+  },
+  {
+   "eventVersion": "1.09",
+   "userIdentity": {
+    "type": "IAMUser",
+    "userName": "bob",
+    "arn": "arn:aws:iam::111122223333:user/bob",
+    "accountId": "111122223333"
+   },
+   "eventTime": "2026-10-14T07:01:00Z",
+   "eventSource": "s3.amazonaws.com",
+   "eventName": "ListBuckets",
+   "awsRegion": "us-east-1",
+   "sourceIPAddress": "203.0.113.22",
+   "userAgent": "aws-cli/2.17.0",
+   "requestParameters": null,
+   "responseElements": null,
+   "eventID": "6d76b07e-881e-d162-ae2e-b1547f150524",
+   "eventType": "AwsApiCall",
+   "recipientAccountId": "111122223333"
+  },
+  {
+   "eventVersion": "1.09",
+   "userIdentity": {
+    "type": "IAMUser",
+    "userName": "bob",
+    "arn": "arn:aws:iam::111122223333:user/bob",
+    "accountId": "111122223333"
+   },
+   "eventTime": "2026-10-14T07:32:00Z",
+   "eventSource": "ec2.amazonaws.com",
+   "eventName": "DescribeSecurityGroups",
+   "awsRegion": "us-east-1",
+   "sourceIPAddress": "203.0.113.22",
+   "userAgent": "aws-cli/2.17.0",
+   "requestParameters": null,
+   "responseElements": null,
+   "eventID": "1fb17c23-90c1-92cf-d3ac-94af0f21ddb6",
+   "eventType": "AwsApiCall",
+   "recipientAccountId": "111122223333"
+  },
+  {
+   "eventVersion": "1.09",
+   "userIdentity": {
+    "type": "IAMUser",
+    "userName": "alice",
+    "arn": "arn:aws:iam::111122223333:user/alice",
+    "accountId": "111122223333"
+   },
+   "eventTime": "2026-10-14T07:44:00Z",
+   "eventSource": "sts.amazonaws.com",
+   "eventName": "GetCallerIdentity",
+   "awsRegion": "us-east-1",
+   "sourceIPAddress": "203.0.113.10",
+   "userAgent": "aws-cli/2.17.0",
+   "requestParameters": null,
+   "responseElements": null,
+   "eventID": "f2ee4e45-19f9-919c-895f-d7b326b94c7f",
+   "eventType": "AwsApiCall",
+   "recipientAccountId": "111122223333"
+  },
+  {
+   "eventVersion": "1.09",
+   "userIdentity": {
+    "type": "AssumedRole",
+    "arn": "arn:aws:sts::111122223333:assumed-role/ci-deploy/github-actions",
+    "accountId": "111122223333"
+   },
+   "eventTime": "2026-10-14T07:46:00Z",
+   "eventSource": "ec2.amazonaws.com",
+   "eventName": "DescribeSecurityGroups",
+   "awsRegion": "us-east-1",
+   "sourceIPAddress": "140.82.112.4",
+   "userAgent": "aws-cli/2.17.0",
+   "requestParameters": null,
+   "responseElements": null,
+   "eventID": "fc132d0d-113d-b17d-30cb-c97d0fef7928",
+   "eventType": "AwsApiCall",
+   "recipientAccountId": "111122223333"
+  },
+  {
+   "eventVersion": "1.09",
+   "userIdentity": {
+    "type": "IAMUser",
+    "userName": "bob",
+    "arn": "arn:aws:iam::111122223333:user/bob",
+    "accountId": "111122223333"
+   },
+   "eventTime": "2026-10-14T08:08:00Z",
+   "eventSource": "sts.amazonaws.com",
+   "eventName": "GetCallerIdentity",
+   "awsRegion": "us-east-1",
+   "sourceIPAddress": "203.0.113.22",
+   "userAgent": "aws-cli/2.17.0",
+   "requestParameters": null,
+   "responseElements": null,
+   "eventID": "ad1b72db-a7ab-e1c2-9e1a-8ef4f341e07a",
+   "eventType": "AwsApiCall",
+   "recipientAccountId": "111122223333"
+  },
+  {
+   "eventVersion": "1.09",
+   "userIdentity": {
+    "type": "IAMUser",
+    "userName": "bob",
+    "arn": "arn:aws:iam::111122223333:user/bob",
+    "accountId": "111122223333"
+   },
+   "eventTime": "2026-10-14T08:12:00Z",
+   "eventSource": "s3.amazonaws.com",
+   "eventName": "ListBuckets",
+   "awsRegion": "us-east-1",
+   "sourceIPAddress": "203.0.113.22",
+   "userAgent": "aws-cli/2.17.0",
+   "requestParameters": null,
+   "responseElements": null,
+   "eventID": "df1582b0-eab4-77d2-6415-479c65dc9f50",
+   "eventType": "AwsApiCall",
+   "recipientAccountId": "111122223333"
+  },
+  {
+   "eventVersion": "1.09",
+   "userIdentity": {
+    "type": "IAMUser",
+    "userName": "bob",
+    "arn": "arn:aws:iam::111122223333:user/bob",
+    "accountId": "111122223333"
+   },
+   "eventTime": "2026-10-14T08:30:00Z",
+   "eventSource": "sts.amazonaws.com",
+   "eventName": "GetCallerIdentity",
+   "awsRegion": "us-east-1",
+   "sourceIPAddress": "203.0.113.22",
+   "userAgent": "aws-cli/2.17.0",
+   "requestParameters": null,
+   "responseElements": null,
+   "eventID": "87322e25-c215-a82a-06ec-41adea057543",
+   "eventType": "AwsApiCall",
+   "recipientAccountId": "111122223333"
+  },
+  {
+   "eventVersion": "1.09",
+   "userIdentity": {
+    "type": "IAMUser",
+    "userName": "alice",
+    "arn": "arn:aws:iam::111122223333:user/alice",
+    "accountId": "111122223333"
+   },
+   "eventTime": "2026-10-14T09:00:00Z",
+   "eventSource": "s3.amazonaws.com",
+   "eventName": "ListBuckets",
+   "awsRegion": "us-east-1",
+   "sourceIPAddress": "203.0.113.10",
+   "userAgent": "aws-cli/2.17.0",
+   "requestParameters": null,
+   "responseElements": null,
+   "eventID": "7c26847f-0316-909e-3bbb-e9eaa8948c89",
+   "eventType": "AwsApiCall",
+   "recipientAccountId": "111122223333"
+  },
+  {
+   "eventVersion": "1.09",
+   "userIdentity": {
+    "type": "AssumedRole",
+    "arn": "arn:aws:sts::111122223333:assumed-role/ci-deploy/github-actions",
+    "accountId": "111122223333"
+   },
+   "eventTime": "2026-10-14T09:12:00Z",
+   "eventSource": "ec2.amazonaws.com",
+   "eventName": "DescribeInstances",
+   "awsRegion": "us-east-1",
+   "sourceIPAddress": "140.82.112.4",
+   "userAgent": "aws-cli/2.17.0",
+   "requestParameters": null,
+   "responseElements": null,
+   "eventID": "907a70c3-1012-f037-b64c-e4228c38fb29",
+   "eventType": "AwsApiCall",
+   "recipientAccountId": "111122223333"
+  },
+  {
+   "eventVersion": "1.09",
+   "userIdentity": {
+    "type": "IAMUser",
+    "userName": "dev-jenkins",
+    "arn": "arn:aws:iam::111122223333:user/dev-jenkins",
+    "accountId": "111122223333"
+   },
+   "eventTime": "2026-10-14T09:12:00Z",
+   "eventSource": "signin.amazonaws.com",
+   "eventName": "ConsoleLogin",
+   "awsRegion": "us-east-1",
+   "sourceIPAddress": "185.220.101.47",
+   "userAgent": "Mozilla/5.0",
+   "requestParameters": null,
+   "responseElements": {
+    "ConsoleLogin": "Failure"
+   },
+   "eventID": "6b446806-8b5a-b3ee-4265-bb3153740902",
+   "eventType": "AwsConsoleSignIn",
+   "recipientAccountId": "111122223333",
+   "errorCode": "Failed authentication",
+   "errorMessage": "User is not authorized to perform this operation",
+   "additionalEventData": {
+    "MFAUsed": "No"
+   }
+  },
+  {
+   "eventVersion": "1.09",
+   "userIdentity": {
+    "type": "IAMUser",
+    "userName": "dev-jenkins",
+    "arn": "arn:aws:iam::111122223333:user/dev-jenkins",
+    "accountId": "111122223333"
+   },
+   "eventTime": "2026-10-14T09:12:40Z",
+   "eventSource": "signin.amazonaws.com",
+   "eventName": "ConsoleLogin",
+   "awsRegion": "us-east-1",
+   "sourceIPAddress": "185.220.101.47",
+   "userAgent": "Mozilla/5.0",
+   "requestParameters": null,
+   "responseElements": {
+    "ConsoleLogin": "Failure"
+   },
+   "eventID": "e8f6e0bd-0f97-7044-218e-0b7bd58dcdb4",
+   "eventType": "AwsConsoleSignIn",
+   "recipientAccountId": "111122223333",
+   "errorCode": "Failed authentication",
+   "errorMessage": "User is not authorized to perform this operation",
+   "additionalEventData": {
+    "MFAUsed": "No"
+   }
+  },
+  {
+   "eventVersion": "1.09",
+   "userIdentity": {
+    "type": "IAMUser",
+    "userName": "dev-jenkins",
+    "arn": "arn:aws:iam::111122223333:user/dev-jenkins",
+    "accountId": "111122223333"
+   },
+   "eventTime": "2026-10-14T09:13:20Z",
+   "eventSource": "signin.amazonaws.com",
+   "eventName": "ConsoleLogin",
+   "awsRegion": "us-east-1",
+   "sourceIPAddress": "185.220.101.47",
+   "userAgent": "Mozilla/5.0",
+   "requestParameters": null,
+   "responseElements": {
+    "ConsoleLogin": "Failure"
+   },
+   "eventID": "754a09cd-e5cf-edfa-5a91-96f0bd6b881a",
+   "eventType": "AwsConsoleSignIn",
+   "recipientAccountId": "111122223333",
+   "errorCode": "Failed authentication",
+   "errorMessage": "User is not authorized to perform this operation",
+   "additionalEventData": {
+    "MFAUsed": "No"
+   }
+  },
+  {
+   "eventVersion": "1.09",
+   "userIdentity": {
+    "type": "IAMUser",
+    "userName": "dev-jenkins",
+    "arn": "arn:aws:iam::111122223333:user/dev-jenkins",
+    "accountId": "111122223333"
+   },
+   "eventTime": "2026-10-14T09:14:00Z",
+   "eventSource": "signin.amazonaws.com",
+   "eventName": "ConsoleLogin",
+   "awsRegion": "us-east-1",
+   "sourceIPAddress": "185.220.101.47",
+   "userAgent": "Mozilla/5.0",
+   "requestParameters": null,
+   "responseElements": {
+    "ConsoleLogin": "Failure"
+   },
+   "eventID": "e77ffe48-d0a6-ec17-9556-585ea997f351",
+   "eventType": "AwsConsoleSignIn",
+   "recipientAccountId": "111122223333",
+   "errorCode": "Failed authentication",
+   "errorMessage": "User is not authorized to perform this operation",
+   "additionalEventData": {
+    "MFAUsed": "No"
+   }
+  },
+  {
+   "eventVersion": "1.09",
+   "userIdentity": {
+    "type": "IAMUser",
+    "userName": "dev-jenkins",
+    "arn": "arn:aws:iam::111122223333:user/dev-jenkins",
+    "accountId": "111122223333"
+   },
+   "eventTime": "2026-10-14T09:14:40Z",
+   "eventSource": "signin.amazonaws.com",
+   "eventName": "ConsoleLogin",
+   "awsRegion": "us-east-1",
+   "sourceIPAddress": "185.220.101.47",
+   "userAgent": "Mozilla/5.0",
+   "requestParameters": null,
+   "responseElements": {
+    "ConsoleLogin": "Failure"
+   },
+   "eventID": "eaefc4d2-d3bf-6d01-6bae-4b5b844a7034",
+   "eventType": "AwsConsoleSignIn",
+   "recipientAccountId": "111122223333",
+   "errorCode": "Failed authentication",
+   "errorMessage": "User is not authorized to perform this operation",
+   "additionalEventData": {
+    "MFAUsed": "No"
+   }
+  },
+  {
+   "eventVersion": "1.09",
+   "userIdentity": {
+    "type": "IAMUser",
+    "userName": "dev-jenkins",
+    "arn": "arn:aws:iam::111122223333:user/dev-jenkins",
+    "accountId": "111122223333"
+   },
+   "eventTime": "2026-10-14T09:15:20Z",
+   "eventSource": "signin.amazonaws.com",
+   "eventName": "ConsoleLogin",
+   "awsRegion": "us-east-1",
+   "sourceIPAddress": "185.220.101.47",
+   "userAgent": "Mozilla/5.0",
+   "requestParameters": null,
+   "responseElements": {
+    "ConsoleLogin": "Failure"
+   },
+   "eventID": "8825ae56-2179-b37d-806c-10b5e0cfab4c",
+   "eventType": "AwsConsoleSignIn",
+   "recipientAccountId": "111122223333",
+   "errorCode": "Failed authentication",
+   "errorMessage": "User is not authorized to perform this operation",
+   "additionalEventData": {
+    "MFAUsed": "No"
+   }
+  },
+  {
+   "eventVersion": "1.09",
+   "userIdentity": {
+    "type": "IAMUser",
+    "userName": "dev-jenkins",
+    "arn": "arn:aws:iam::111122223333:user/dev-jenkins",
+    "accountId": "111122223333"
+   },
+   "eventTime": "2026-10-14T09:16:00Z",
+   "eventSource": "signin.amazonaws.com",
+   "eventName": "ConsoleLogin",
+   "awsRegion": "us-east-1",
+   "sourceIPAddress": "185.220.101.47",
+   "userAgent": "Mozilla/5.0",
+   "requestParameters": null,
+   "responseElements": {
+    "ConsoleLogin": "Failure"
+   },
+   "eventID": "04c9d78d-82b3-3599-8604-871926debfdb",
+   "eventType": "AwsConsoleSignIn",
+   "recipientAccountId": "111122223333",
+   "errorCode": "Failed authentication",
+   "errorMessage": "User is not authorized to perform this operation",
+   "additionalEventData": {
+    "MFAUsed": "No"
+   }
+  },
+  {
+   "eventVersion": "1.09",
+   "userIdentity": {
+    "type": "IAMUser",
+    "userName": "dev-jenkins",
+    "arn": "arn:aws:iam::111122223333:user/dev-jenkins",
+    "accountId": "111122223333"
+   },
+   "eventTime": "2026-10-14T09:18:00Z",
+   "eventSource": "signin.amazonaws.com",
+   "eventName": "ConsoleLogin",
+   "awsRegion": "us-east-1",
+   "sourceIPAddress": "185.220.101.47",
+   "userAgent": "Mozilla/5.0",
+   "requestParameters": null,
+   "responseElements": {
+    "ConsoleLogin": "Success"
+   },
+   "eventID": "2ee0289d-c6c9-1b92-70ac-06acdf703017",
+   "eventType": "AwsConsoleSignIn",
+   "recipientAccountId": "111122223333",
+   "additionalEventData": {
+    "MFAUsed": "No"
+   }
+  },
+  {
+   "eventVersion": "1.09",
+   "userIdentity": {
+    "type": "IAMUser",
+    "userName": "dev-jenkins",
+    "arn": "arn:aws:iam::111122223333:user/dev-jenkins",
+    "accountId": "111122223333"
+   },
+   "eventTime": "2026-10-14T09:19:00Z",
+   "eventSource": "iam.amazonaws.com",
+   "eventName": "ListUsers",
+   "awsRegion": "us-east-1",
+   "sourceIPAddress": "185.220.101.47",
+   "userAgent": "aws-cli/2.17.0",
+   "requestParameters": null,
+   "responseElements": null,
+   "eventID": "cc966f46-c6aa-7d55-0101-b8119bca3cb7",
+   "eventType": "AwsApiCall",
+   "recipientAccountId": "111122223333",
+   "errorCode": "AccessDenied",
+   "errorMessage": "User is not authorized to perform this operation"
+  },
+  {
+   "eventVersion": "1.09",
+   "userIdentity": {
+    "type": "IAMUser",
+    "userName": "dev-jenkins",
+    "arn": "arn:aws:iam::111122223333:user/dev-jenkins",
+    "accountId": "111122223333"
+   },
+   "eventTime": "2026-10-14T09:19:20Z",
+   "eventSource": "iam.amazonaws.com",
+   "eventName": "ListRoles",
+   "awsRegion": "us-east-1",
+   "sourceIPAddress": "185.220.101.47",
+   "userAgent": "aws-cli/2.17.0",
+   "requestParameters": null,
+   "responseElements": null,
+   "eventID": "7936d536-243d-3570-2c1e-ea1f265974a7",
+   "eventType": "AwsApiCall",
+   "recipientAccountId": "111122223333",
+   "errorCode": "AccessDenied",
+   "errorMessage": "User is not authorized to perform this operation"
+  },
+  {
+   "eventVersion": "1.09",
+   "userIdentity": {
+    "type": "IAMUser",
+    "userName": "dev-jenkins",
+    "arn": "arn:aws:iam::111122223333:user/dev-jenkins",
+    "accountId": "111122223333"
+   },
+   "eventTime": "2026-10-14T09:19:40Z",
+   "eventSource": "iam.amazonaws.com",
+   "eventName": "GetAccountAuthorizationDetails",
+   "awsRegion": "us-east-1",
+   "sourceIPAddress": "185.220.101.47",
+   "userAgent": "aws-cli/2.17.0",
+   "requestParameters": null,
+   "responseElements": null,
+   "eventID": "8e752fdf-1ece-615d-b9a6-442e9e7d6b37",
+   "eventType": "AwsApiCall",
+   "recipientAccountId": "111122223333",
+   "errorCode": "AccessDenied",
+   "errorMessage": "User is not authorized to perform this operation"
+  },
+  {
+   "eventVersion": "1.09",
+   "userIdentity": {
+    "type": "IAMUser",
+    "userName": "dev-jenkins",
+    "arn": "arn:aws:iam::111122223333:user/dev-jenkins",
+    "accountId": "111122223333"
+   },
+   "eventTime": "2026-10-14T09:20:00Z",
+   "eventSource": "secretsmanager.amazonaws.com",
+   "eventName": "ListSecrets",
+   "awsRegion": "us-east-1",
+   "sourceIPAddress": "185.220.101.47",
+   "userAgent": "aws-cli/2.17.0",
+   "requestParameters": null,
+   "responseElements": null,
+   "eventID": "84b28054-aead-44b0-5373-90e50fcf31ca",
+   "eventType": "AwsApiCall",
+   "recipientAccountId": "111122223333",
+   "errorCode": "AccessDenied",
+   "errorMessage": "User is not authorized to perform this operation"
+  },
+  {
+   "eventVersion": "1.09",
+   "userIdentity": {
+    "type": "IAMUser",
+    "userName": "dev-jenkins",
+    "arn": "arn:aws:iam::111122223333:user/dev-jenkins",
+    "accountId": "111122223333"
+   },
+   "eventTime": "2026-10-14T09:20:20Z",
+   "eventSource": "rds.amazonaws.com",
+   "eventName": "DescribeDBInstances",
+   "awsRegion": "us-east-1",
+   "sourceIPAddress": "185.220.101.47",
+   "userAgent": "aws-cli/2.17.0",
+   "requestParameters": null,
+   "responseElements": null,
+   "eventID": "c8c614b2-7b84-44d1-8e31-704187ddaeb7",
+   "eventType": "AwsApiCall",
+   "recipientAccountId": "111122223333",
+   "errorCode": "AccessDenied",
+   "errorMessage": "User is not authorized to perform this operation"
+  },
+  {
+   "eventVersion": "1.09",
+   "userIdentity": {
+    "type": "IAMUser",
+    "userName": "dev-jenkins",
+    "arn": "arn:aws:iam::111122223333:user/dev-jenkins",
+    "accountId": "111122223333"
+   },
+   "eventTime": "2026-10-14T09:20:40Z",
+   "eventSource": "kms.amazonaws.com",
+   "eventName": "ListKeys",
+   "awsRegion": "us-east-1",
+   "sourceIPAddress": "185.220.101.47",
+   "userAgent": "aws-cli/2.17.0",
+   "requestParameters": null,
+   "responseElements": null,
+   "eventID": "8f6f915f-e21b-37ca-1b29-fc99c6c80e2b",
+   "eventType": "AwsApiCall",
+   "recipientAccountId": "111122223333",
+   "errorCode": "AccessDenied",
+   "errorMessage": "User is not authorized to perform this operation"
+  },
+  {
+   "eventVersion": "1.09",
+   "userIdentity": {
+    "type": "IAMUser",
+    "userName": "dev-jenkins",
+    "arn": "arn:aws:iam::111122223333:user/dev-jenkins",
+    "accountId": "111122223333"
+   },
+   "eventTime": "2026-10-14T09:21:00Z",
+   "eventSource": "iam.amazonaws.com",
+   "eventName": "ListUsers",
+   "awsRegion": "us-east-1",
+   "sourceIPAddress": "185.220.101.47",
+   "userAgent": "aws-cli/2.17.0",
+   "requestParameters": null,
+   "responseElements": null,
+   "eventID": "46e40990-30f9-7058-3f9d-52f90e8bec94",
+   "eventType": "AwsApiCall",
+   "recipientAccountId": "111122223333",
+   "errorCode": "AccessDenied",
+   "errorMessage": "User is not authorized to perform this operation"
+  },
+  {
+   "eventVersion": "1.09",
+   "userIdentity": {
+    "type": "IAMUser",
+    "userName": "dev-jenkins",
+    "arn": "arn:aws:iam::111122223333:user/dev-jenkins",
+    "accountId": "111122223333"
+   },
+   "eventTime": "2026-10-14T09:21:20Z",
+   "eventSource": "iam.amazonaws.com",
+   "eventName": "ListRoles",
+   "awsRegion": "us-east-1",
+   "sourceIPAddress": "185.220.101.47",
+   "userAgent": "aws-cli/2.17.0",
+   "requestParameters": null,
+   "responseElements": null,
+   "eventID": "81f98b52-1905-d591-c5b2-e75a0acd8be1",
+   "eventType": "AwsApiCall",
+   "recipientAccountId": "111122223333",
+   "errorCode": "AccessDenied",
+   "errorMessage": "User is not authorized to perform this operation"
+  },
+  {
+   "eventVersion": "1.09",
+   "userIdentity": {
+    "type": "IAMUser",
+    "userName": "dev-jenkins",
+    "arn": "arn:aws:iam::111122223333:user/dev-jenkins",
+    "accountId": "111122223333"
+   },
+   "eventTime": "2026-10-14T09:21:40Z",
+   "eventSource": "iam.amazonaws.com",
+   "eventName": "GetAccountAuthorizationDetails",
+   "awsRegion": "us-east-1",
+   "sourceIPAddress": "185.220.101.47",
+   "userAgent": "aws-cli/2.17.0",
+   "requestParameters": null,
+   "responseElements": null,
+   "eventID": "c28ee907-0722-35c2-8fcd-7f4073c1cd2c",
+   "eventType": "AwsApiCall",
+   "recipientAccountId": "111122223333",
+   "errorCode": "AccessDenied",
+   "errorMessage": "User is not authorized to perform this operation"
+  },
+  {
+   "eventVersion": "1.09",
+   "userIdentity": {
+    "type": "IAMUser",
+    "userName": "dev-jenkins",
+    "arn": "arn:aws:iam::111122223333:user/dev-jenkins",
+    "accountId": "111122223333"
+   },
+   "eventTime": "2026-10-14T09:22:00Z",
+   "eventSource": "secretsmanager.amazonaws.com",
+   "eventName": "ListSecrets",
+   "awsRegion": "us-east-1",
+   "sourceIPAddress": "185.220.101.47",
+   "userAgent": "aws-cli/2.17.0",
+   "requestParameters": null,
+   "responseElements": null,
+   "eventID": "7178ba0a-1038-f0b5-e998-d0eee4ddf9b9",
+   "eventType": "AwsApiCall",
+   "recipientAccountId": "111122223333",
+   "errorCode": "AccessDenied",
+   "errorMessage": "User is not authorized to perform this operation"
+  },
+  {
+   "eventVersion": "1.09",
+   "userIdentity": {
+    "type": "IAMUser",
+    "userName": "dev-jenkins",
+    "arn": "arn:aws:iam::111122223333:user/dev-jenkins",
+    "accountId": "111122223333"
+   },
+   "eventTime": "2026-10-14T09:22:20Z",
+   "eventSource": "rds.amazonaws.com",
+   "eventName": "DescribeDBInstances",
+   "awsRegion": "us-east-1",
+   "sourceIPAddress": "185.220.101.47",
+   "userAgent": "aws-cli/2.17.0",
+   "requestParameters": null,
+   "responseElements": null,
+   "eventID": "816bee06-f92e-2339-9cce-a098535b6a43",
+   "eventType": "AwsApiCall",
+   "recipientAccountId": "111122223333",
+   "errorCode": "AccessDenied",
+   "errorMessage": "User is not authorized to perform this operation"
+  },
+  {
+   "eventVersion": "1.09",
+   "userIdentity": {
+    "type": "IAMUser",
+    "userName": "dev-jenkins",
+    "arn": "arn:aws:iam::111122223333:user/dev-jenkins",
+    "accountId": "111122223333"
+   },
+   "eventTime": "2026-10-14T09:22:40Z",
+   "eventSource": "kms.amazonaws.com",
+   "eventName": "ListKeys",
+   "awsRegion": "us-east-1",
+   "sourceIPAddress": "185.220.101.47",
+   "userAgent": "aws-cli/2.17.0",
+   "requestParameters": null,
+   "responseElements": null,
+   "eventID": "b156d1ad-330c-16a3-831d-03bf9b2bd6c0",
+   "eventType": "AwsApiCall",
+   "recipientAccountId": "111122223333",
+   "errorCode": "AccessDenied",
+   "errorMessage": "User is not authorized to perform this operation"
+  },
+  {
+   "eventVersion": "1.09",
+   "userIdentity": {
+    "type": "IAMUser",
+    "userName": "dev-jenkins",
+    "arn": "arn:aws:iam::111122223333:user/dev-jenkins",
+    "accountId": "111122223333"
+   },
+   "eventTime": "2026-10-14T09:26:00Z",
+   "eventSource": "iam.amazonaws.com",
+   "eventName": "AttachUserPolicy",
+   "awsRegion": "us-east-1",
+   "sourceIPAddress": "185.220.101.47",
+   "userAgent": "aws-cli/2.17.0",
+   "requestParameters": {
+    "userName": "dev-jenkins",
+    "policyArn": "arn:aws:iam::aws:policy/AdministratorAccess"
+   },
+   "responseElements": null,
+   "eventID": "888564e8-8216-858f-73cc-ef0346f5a1b4",
+   "eventType": "AwsApiCall",
+   "recipientAccountId": "111122223333"
+  },
+  {
+   "eventVersion": "1.09",
+   "userIdentity": {
+    "type": "IAMUser",
+    "userName": "dev-jenkins",
+    "arn": "arn:aws:iam::111122223333:user/dev-jenkins",
+    "accountId": "111122223333"
+   },
+   "eventTime": "2026-10-14T09:27:00Z",
+   "eventSource": "iam.amazonaws.com",
+   "eventName": "CreateAccessKey",
+   "awsRegion": "us-east-1",
+   "sourceIPAddress": "185.220.101.47",
+   "userAgent": "aws-cli/2.17.0",
+   "requestParameters": {
+    "userName": "backup-admin"
+   },
+   "responseElements": {
+    "accessKey": {
+     "accessKeyId": "AKIAEXAMPLEBACKUP01",
+     "status": "Active",
+     "userName": "backup-admin"
+    }
+   },
+   "eventID": "f10637ce-81fc-069e-7a60-9683ceaf4915",
+   "eventType": "AwsApiCall",
+   "recipientAccountId": "111122223333"
+  },
+  {
+   "eventVersion": "1.09",
+   "userIdentity": {
+    "type": "IAMUser",
+    "userName": "dev-jenkins",
+    "arn": "arn:aws:iam::111122223333:user/dev-jenkins",
+    "accountId": "111122223333"
+   },
+   "eventTime": "2026-10-14T09:28:00Z",
+   "eventSource": "iam.amazonaws.com",
+   "eventName": "CreateLoginProfile",
+   "awsRegion": "us-east-1",
+   "sourceIPAddress": "185.220.101.47",
+   "userAgent": "aws-cli/2.17.0",
+   "requestParameters": {
+    "userName": "backup-admin"
+   },
+   "responseElements": null,
+   "eventID": "e064a114-85f1-115b-b2ff-f17b3f665ede",
+   "eventType": "AwsApiCall",
+   "recipientAccountId": "111122223333"
+  },
+  {
+   "eventVersion": "1.09",
+   "userIdentity": {
+    "type": "IAMUser",
+    "userName": "dev-jenkins",
+    "arn": "arn:aws:iam::111122223333:user/dev-jenkins",
+    "accountId": "111122223333"
+   },
+   "eventTime": "2026-10-14T09:31:00Z",
+   "eventSource": "cloudtrail.amazonaws.com",
+   "eventName": "StopLogging",
+   "awsRegion": "us-east-1",
+   "sourceIPAddress": "185.220.101.47",
+   "userAgent": "aws-cli/2.17.0",
+   "requestParameters": {
+    "name": "org-trail"
+   },
+   "responseElements": null,
+   "eventID": "4274a3eb-ed84-e91e-f132-bf2de040015c",
+   "eventType": "AwsApiCall",
+   "recipientAccountId": "111122223333"
+  },
+  {
+   "eventVersion": "1.09",
+   "userIdentity": {
+    "type": "IAMUser",
+    "userName": "dev-jenkins",
+    "arn": "arn:aws:iam::111122223333:user/dev-jenkins",
+    "accountId": "111122223333"
+   },
+   "eventTime": "2026-10-14T09:32:00Z",
+   "eventSource": "ec2.amazonaws.com",
+   "eventName": "DeleteFlowLogs",
+   "awsRegion": "us-east-1",
+   "sourceIPAddress": "185.220.101.47",
+   "userAgent": "aws-cli/2.17.0",
+   "requestParameters": {
+    "flowLogId": [
+     "fl-0abc"
+    ]
+   },
+   "responseElements": null,
+   "eventID": "f179f2d2-e48b-9662-8f3c-4be3ec3b9605",
+   "eventType": "AwsApiCall",
+   "recipientAccountId": "111122223333"
+  },
+  {
+   "eventVersion": "1.09",
+   "userIdentity": {
+    "type": "AssumedRole",
+    "arn": "arn:aws:sts::111122223333:assumed-role/ci-deploy/github-actions",
+    "accountId": "111122223333"
+   },
+   "eventTime": "2026-10-14T09:33:00Z",
+   "eventSource": "s3.amazonaws.com",
+   "eventName": "ListBuckets",
+   "awsRegion": "us-east-1",
+   "sourceIPAddress": "140.82.112.4",
+   "userAgent": "aws-cli/2.17.0",
+   "requestParameters": null,
+   "responseElements": null,
+   "eventID": "0d75985d-99c9-4309-570d-c1951c2442f9",
+   "eventType": "AwsApiCall",
+   "recipientAccountId": "111122223333"
+  },
+  {
+   "eventVersion": "1.09",
+   "userIdentity": {
+    "type": "IAMUser",
+    "userName": "dev-jenkins",
+    "arn": "arn:aws:iam::111122223333:user/dev-jenkins",
+    "accountId": "111122223333"
+   },
+   "eventTime": "2026-10-14T09:34:00Z",
+   "eventSource": "ec2.amazonaws.com",
+   "eventName": "AuthorizeSecurityGroupIngress",
+   "awsRegion": "us-east-1",
+   "sourceIPAddress": "185.220.101.47",
+   "userAgent": "aws-cli/2.17.0",
+   "requestParameters": {
+    "groupId": "sg-0db1",
+    "ipPermissions": {
+     "items": [
+      {
+       "ipProtocol": "tcp",
+       "fromPort": 22,
+       "toPort": 22,
+       "ipRanges": {
+        "items": [
+         {
+          "cidrIp": "0.0.0.0/0"
+         }
+        ]
+       }
+      }
+     ]
+    }
+   },
+   "responseElements": null,
+   "eventID": "231b3e14-7291-35bd-d70a-39d133dcd77f",
+   "eventType": "AwsApiCall",
+   "recipientAccountId": "111122223333"
+  },
+  {
+   "eventVersion": "1.09",
+   "userIdentity": {
+    "type": "IAMUser",
+    "userName": "dev-jenkins",
+    "arn": "arn:aws:iam::111122223333:user/dev-jenkins",
+    "accountId": "111122223333"
+   },
+   "eventTime": "2026-10-14T09:35:00Z",
+   "eventSource": "s3.amazonaws.com",
+   "eventName": "PutBucketPolicy",
+   "awsRegion": "us-east-1",
+   "sourceIPAddress": "185.220.101.47",
+   "userAgent": "aws-cli/2.17.0",
+   "requestParameters": {
+    "bucketName": "acme-customer-exports"
+   },
+   "responseElements": null,
+   "eventID": "712ea6b3-6471-fde4-1f22-9dd06aa8b9e0",
+   "eventType": "AwsApiCall",
+   "recipientAccountId": "111122223333"
+  },
+  {
+   "eventVersion": "1.09",
+   "userIdentity": {
+    "type": "IAMUser",
+    "userName": "dev-jenkins",
+    "arn": "arn:aws:iam::111122223333:user/dev-jenkins",
+    "accountId": "111122223333"
+   },
+   "eventTime": "2026-10-14T09:37:00Z",
+   "eventSource": "s3.amazonaws.com",
+   "eventName": "GetObject",
+   "awsRegion": "us-east-1",
+   "sourceIPAddress": "185.220.101.47",
+   "userAgent": "aws-cli/2.17.0",
+   "requestParameters": {
+    "bucketName": "acme-customer-exports",
+    "key": "exports/2026-10/customers-0.csv"
+   },
+   "responseElements": null,
+   "eventID": "3d9a8079-abd0-d7fb-1292-618550e40d54",
+   "eventType": "AwsApiCall",
+   "recipientAccountId": "111122223333"
+  },
+  {
+   "eventVersion": "1.09",
+   "userIdentity": {
+    "type": "IAMUser",
+    "userName": "dev-jenkins",
+    "arn": "arn:aws:iam::111122223333:user/dev-jenkins",
+    "accountId": "111122223333"
+   },
+   "eventTime": "2026-10-14T09:37:05Z",
+   "eventSource": "s3.amazonaws.com",
+   "eventName": "GetObject",
+   "awsRegion": "us-east-1",
+   "sourceIPAddress": "185.220.101.47",
+   "userAgent": "aws-cli/2.17.0",
+   "requestParameters": {
+    "bucketName": "acme-customer-exports",
+    "key": "exports/2026-10/customers-1.csv"
+   },
+   "responseElements": null,
+   "eventID": "ab6286cd-3672-d6ae-12b8-0aed6da79a87",
+   "eventType": "AwsApiCall",
+   "recipientAccountId": "111122223333"
+  },
+  {
+   "eventVersion": "1.09",
+   "userIdentity": {
+    "type": "IAMUser",
+    "userName": "dev-jenkins",
+    "arn": "arn:aws:iam::111122223333:user/dev-jenkins",
+    "accountId": "111122223333"
+   },
+   "eventTime": "2026-10-14T09:37:10Z",
+   "eventSource": "s3.amazonaws.com",
+   "eventName": "GetObject",
+   "awsRegion": "us-east-1",
+   "sourceIPAddress": "185.220.101.47",
+   "userAgent": "aws-cli/2.17.0",
+   "requestParameters": {
+    "bucketName": "acme-customer-exports",
+    "key": "exports/2026-10/customers-2.csv"
+   },
+   "responseElements": null,
+   "eventID": "e5a3863e-1f52-5265-c8b0-07ee4d82feac",
+   "eventType": "AwsApiCall",
+   "recipientAccountId": "111122223333"
+  },
+  {
+   "eventVersion": "1.09",
+   "userIdentity": {
+    "type": "IAMUser",
+    "userName": "dev-jenkins",
+    "arn": "arn:aws:iam::111122223333:user/dev-jenkins",
+    "accountId": "111122223333"
+   },
+   "eventTime": "2026-10-14T09:37:15Z",
+   "eventSource": "s3.amazonaws.com",
+   "eventName": "GetObject",
+   "awsRegion": "us-east-1",
+   "sourceIPAddress": "185.220.101.47",
+   "userAgent": "aws-cli/2.17.0",
+   "requestParameters": {
+    "bucketName": "acme-customer-exports",
+    "key": "exports/2026-10/customers-3.csv"
+   },
+   "responseElements": null,
+   "eventID": "b753a1ee-f083-6085-2789-d059c6e50df2",
+   "eventType": "AwsApiCall",
+   "recipientAccountId": "111122223333"
+  },
+  {
+   "eventVersion": "1.09",
+   "userIdentity": {
+    "type": "IAMUser",
+    "userName": "dev-jenkins",
+    "arn": "arn:aws:iam::111122223333:user/dev-jenkins",
+    "accountId": "111122223333"
+   },
+   "eventTime": "2026-10-14T09:37:20Z",
+   "eventSource": "s3.amazonaws.com",
+   "eventName": "GetObject",
+   "awsRegion": "us-east-1",
+   "sourceIPAddress": "185.220.101.47",
+   "userAgent": "aws-cli/2.17.0",
+   "requestParameters": {
+    "bucketName": "acme-customer-exports",
+    "key": "exports/2026-10/customers-4.csv"
+   },
+   "responseElements": null,
+   "eventID": "249a4584-5dbe-3023-a906-922fa4b9a9c4",
+   "eventType": "AwsApiCall",
+   "recipientAccountId": "111122223333"
+  },
+  {
+   "eventVersion": "1.09",
+   "userIdentity": {
+    "type": "IAMUser",
+    "userName": "alice",
+    "arn": "arn:aws:iam::111122223333:user/alice",
+    "accountId": "111122223333"
+   },
+   "eventTime": "2026-10-14T09:39:00Z",
+   "eventSource": "ec2.amazonaws.com",
+   "eventName": "DescribeInstances",
+   "awsRegion": "us-east-1",
+   "sourceIPAddress": "203.0.113.10",
+   "userAgent": "aws-cli/2.17.0",
+   "requestParameters": null,
+   "responseElements": null,
+   "eventID": "3d9c1724-11e2-0b8f-6b0d-549b6f03675a",
+   "eventType": "AwsApiCall",
+   "recipientAccountId": "111122223333"
+  },
+  {
+   "eventVersion": "1.09",
+   "userIdentity": {
+    "type": "IAMUser",
+    "userName": "alice",
+    "arn": "arn:aws:iam::111122223333:user/alice",
+    "accountId": "111122223333"
+   },
+   "eventTime": "2026-10-14T09:45:00Z",
+   "eventSource": "s3.amazonaws.com",
+   "eventName": "ListBuckets",
+   "awsRegion": "us-east-1",
+   "sourceIPAddress": "203.0.113.10",
+   "userAgent": "aws-cli/2.17.0",
+   "requestParameters": null,
+   "responseElements": null,
+   "eventID": "3451d013-5675-f6ad-325b-55dd78572976",
+   "eventType": "AwsApiCall",
+   "recipientAccountId": "111122223333"
+  },
+  {
+   "eventVersion": "1.09",
+   "userIdentity": {
+    "type": "IAMUser",
+    "userName": "bob",
+    "arn": "arn:aws:iam::111122223333:user/bob",
+    "accountId": "111122223333"
+   },
+   "eventTime": "2026-10-14T09:48:00Z",
+   "eventSource": "sts.amazonaws.com",
+   "eventName": "GetCallerIdentity",
+   "awsRegion": "us-east-1",
+   "sourceIPAddress": "203.0.113.22",
+   "userAgent": "aws-cli/2.17.0",
+   "requestParameters": null,
+   "responseElements": null,
+   "eventID": "95e60af5-93bd-04cf-0fd6-30f1f29d0da9",
+   "eventType": "AwsApiCall",
+   "recipientAccountId": "111122223333"
+  },
+  {
+   "eventVersion": "1.09",
+   "userIdentity": {
+    "type": "IAMUser",
+    "userName": "alice",
+    "arn": "arn:aws:iam::111122223333:user/alice",
+    "accountId": "111122223333"
+   },
+   "eventTime": "2026-10-14T09:52:00Z",
+   "eventSource": "sts.amazonaws.com",
+   "eventName": "GetCallerIdentity",
+   "awsRegion": "us-east-1",
+   "sourceIPAddress": "203.0.113.10",
+   "userAgent": "aws-cli/2.17.0",
+   "requestParameters": null,
+   "responseElements": null,
+   "eventID": "076b3e36-bb23-13f5-5b06-258e7e26f36a",
+   "eventType": "AwsApiCall",
+   "recipientAccountId": "111122223333"
+  },
+  {
+   "eventVersion": "1.09",
+   "userIdentity": {
+    "type": "AssumedRole",
+    "arn": "arn:aws:sts::111122223333:assumed-role/ci-deploy/github-actions",
+    "accountId": "111122223333"
+   },
+   "eventTime": "2026-10-14T10:56:00Z",
+   "eventSource": "s3.amazonaws.com",
+   "eventName": "ListBuckets",
+   "awsRegion": "us-east-1",
+   "sourceIPAddress": "140.82.112.4",
+   "userAgent": "aws-cli/2.17.0",
+   "requestParameters": null,
+   "responseElements": null,
+   "eventID": "4ef8aa38-9227-6658-1e27-a1c08a6a63ec",
+   "eventType": "AwsApiCall",
+   "recipientAccountId": "111122223333"
+  },
+  {
+   "eventVersion": "1.09",
+   "userIdentity": {
+    "type": "Root",
+    "principalId": "111122223333",
+    "arn": "arn:aws:iam::111122223333:root",
+    "accountId": "111122223333"
+   },
+   "eventTime": "2026-10-14T11:00:00Z",
+   "eventSource": "signin.amazonaws.com",
+   "eventName": "ConsoleLogin",
+   "awsRegion": "us-east-1",
+   "sourceIPAddress": "198.51.100.5",
+   "userAgent": "Mozilla/5.0",
+   "requestParameters": null,
+   "responseElements": {
+    "ConsoleLogin": "Success"
+   },
+   "eventID": "f7b103df-2323-1e1e-e201-552240cbacd0",
+   "eventType": "AwsConsoleSignIn",
+   "recipientAccountId": "111122223333",
+   "additionalEventData": {
+    "MFAUsed": "Yes"
+   }
+  },
+  {
+   "eventVersion": "1.09",
+   "userIdentity": {
+    "type": "Root",
+    "principalId": "111122223333",
+    "arn": "arn:aws:iam::111122223333:root",
+    "accountId": "111122223333"
+   },
+   "eventTime": "2026-10-14T11:03:00Z",
+   "eventSource": "iam.amazonaws.com",
+   "eventName": "DeleteAccessKey",
+   "awsRegion": "us-east-1",
+   "sourceIPAddress": "198.51.100.5",
+   "userAgent": "aws-cli/2.17.0",
+   "requestParameters": {
+    "userName": "backup-admin",
+    "accessKeyId": "AKIAEXAMPLEBACKUP01"
+   },
+   "responseElements": null,
+   "eventID": "f3d74f82-bf26-8ea0-3836-e86577bd891f",
+   "eventType": "AwsApiCall",
+   "recipientAccountId": "111122223333"
+  },
+  {
+   "eventVersion": "1.09",
+   "userIdentity": {
+    "type": "IAMUser",
+    "userName": "bob",
+    "arn": "arn:aws:iam::111122223333:user/bob",
+    "accountId": "111122223333"
+   },
+   "eventTime": "2026-10-14T11:05:00Z",
+   "eventSource": "ec2.amazonaws.com",
+   "eventName": "DescribeInstances",
+   "awsRegion": "us-east-1",
+   "sourceIPAddress": "203.0.113.22",
+   "userAgent": "aws-cli/2.17.0",
+   "requestParameters": null,
+   "responseElements": null,
+   "eventID": "84b5a818-42d8-7208-d86f-40f6b239f3c7",
+   "eventType": "AwsApiCall",
+   "recipientAccountId": "111122223333"
+  },
+  {
+   "eventVersion": "1.09",
+   "userIdentity": {
+    "type": "Root",
+    "principalId": "111122223333",
+    "arn": "arn:aws:iam::111122223333:root",
+    "accountId": "111122223333"
+   },
+   "eventTime": "2026-10-14T11:05:00Z",
+   "eventSource": "cloudtrail.amazonaws.com",
+   "eventName": "StartLogging",
+   "awsRegion": "us-east-1",
+   "sourceIPAddress": "198.51.100.5",
+   "userAgent": "aws-cli/2.17.0",
+   "requestParameters": {
+    "name": "org-trail"
+   },
+   "responseElements": null,
+   "eventID": "7cbd1f5a-e28a-f604-65f4-298618189af4",
+   "eventType": "AwsApiCall",
+   "recipientAccountId": "111122223333"
+  },
+  {
+   "eventVersion": "1.09",
+   "userIdentity": {
+    "type": "IAMUser",
+    "userName": "alice",
+    "arn": "arn:aws:iam::111122223333:user/alice",
+    "accountId": "111122223333"
+   },
+   "eventTime": "2026-10-14T11:06:00Z",
+   "eventSource": "s3.amazonaws.com",
+   "eventName": "ListBuckets",
+   "awsRegion": "us-east-1",
+   "sourceIPAddress": "203.0.113.10",
+   "userAgent": "aws-cli/2.17.0",
+   "requestParameters": null,
+   "responseElements": null,
+   "eventID": "14f4733f-3e7d-1bfb-c7a2-ea20b2f14c94",
+   "eventType": "AwsApiCall",
+   "recipientAccountId": "111122223333"
+  },
+  {
+   "eventVersion": "1.09",
+   "userIdentity": {
+    "type": "IAMUser",
+    "userName": "alice",
+    "arn": "arn:aws:iam::111122223333:user/alice",
+    "accountId": "111122223333"
+   },
+   "eventTime": "2026-10-14T11:31:00Z",
+   "eventSource": "ec2.amazonaws.com",
+   "eventName": "DescribeSecurityGroups",
+   "awsRegion": "us-east-1",
+   "sourceIPAddress": "203.0.113.10",
+   "userAgent": "aws-cli/2.17.0",
+   "requestParameters": null,
+   "responseElements": null,
+   "eventID": "d23f0824-128b-2f33-0c5c-7fd0a6a3a450",
+   "eventType": "AwsApiCall",
+   "recipientAccountId": "111122223333"
+  },
+  {
+   "eventVersion": "1.09",
+   "userIdentity": {
+    "type": "AssumedRole",
+    "arn": "arn:aws:sts::111122223333:assumed-role/ci-deploy/github-actions",
+    "accountId": "111122223333"
+   },
+   "eventTime": "2026-10-14T11:52:00Z",
+   "eventSource": "s3.amazonaws.com",
+   "eventName": "GetObject",
+   "awsRegion": "us-east-1",
+   "sourceIPAddress": "140.82.112.4",
+   "userAgent": "aws-cli/2.17.0",
+   "requestParameters": null,
+   "responseElements": null,
+   "eventID": "149e259b-5d58-c705-f979-d04af47aebdd",
+   "eventType": "AwsApiCall",
+   "recipientAccountId": "111122223333"
+  },
+  {
+   "eventVersion": "1.09",
+   "userIdentity": {
+    "type": "IAMUser",
+    "userName": "bob",
+    "arn": "arn:aws:iam::111122223333:user/bob",
+    "accountId": "111122223333"
+   },
+   "eventTime": "2026-10-14T12:12:00Z",
+   "eventSource": "ec2.amazonaws.com",
+   "eventName": "DescribeInstances",
+   "awsRegion": "us-east-1",
+   "sourceIPAddress": "203.0.113.22",
+   "userAgent": "aws-cli/2.17.0",
+   "requestParameters": null,
+   "responseElements": null,
+   "eventID": "9d33a01c-353c-631c-dfd4-3f371200339d",
+   "eventType": "AwsApiCall",
+   "recipientAccountId": "111122223333"
+  },
+  {
+   "eventVersion": "1.09",
+   "userIdentity": {
+    "type": "IAMUser",
+    "userName": "alice",
+    "arn": "arn:aws:iam::111122223333:user/alice",
+    "accountId": "111122223333"
+   },
+   "eventTime": "2026-10-14T12:15:00Z",
+   "eventSource": "s3.amazonaws.com",
+   "eventName": "GetObject",
+   "awsRegion": "us-east-1",
+   "sourceIPAddress": "203.0.113.10",
+   "userAgent": "aws-cli/2.17.0",
+   "requestParameters": null,
+   "responseElements": null,
+   "eventID": "8aa4248c-8857-f9a4-3908-f227c59db916",
+   "eventType": "AwsApiCall",
+   "recipientAccountId": "111122223333"
+  },
+  {
+   "eventVersion": "1.09",
+   "userIdentity": {
+    "type": "IAMUser",
+    "userName": "alice",
+    "arn": "arn:aws:iam::111122223333:user/alice",
+    "accountId": "111122223333"
+   },
+   "eventTime": "2026-10-14T12:25:00Z",
+   "eventSource": "s3.amazonaws.com",
+   "eventName": "GetObject",
+   "awsRegion": "us-east-1",
+   "sourceIPAddress": "203.0.113.10",
+   "userAgent": "aws-cli/2.17.0",
+   "requestParameters": null,
+   "responseElements": null,
+   "eventID": "5d39d0a8-9a2e-f80f-58ee-8571f4998d7c",
+   "eventType": "AwsApiCall",
+   "recipientAccountId": "111122223333"
+  },
+  {
+   "eventVersion": "1.09",
+   "userIdentity": {
+    "type": "IAMUser",
+    "userName": "bob",
+    "arn": "arn:aws:iam::111122223333:user/bob",
+    "accountId": "111122223333"
+   },
+   "eventTime": "2026-10-14T12:37:00Z",
+   "eventSource": "s3.amazonaws.com",
+   "eventName": "ListBuckets",
+   "awsRegion": "us-east-1",
+   "sourceIPAddress": "203.0.113.22",
+   "userAgent": "aws-cli/2.17.0",
+   "requestParameters": null,
+   "responseElements": null,
+   "eventID": "6f15b6ad-2db3-997f-e396-39be7a605a91",
+   "eventType": "AwsApiCall",
+   "recipientAccountId": "111122223333"
+  },
+  {
+   "eventVersion": "1.09",
+   "userIdentity": {
+    "type": "IAMUser",
+    "userName": "alice",
+    "arn": "arn:aws:iam::111122223333:user/alice",
+    "accountId": "111122223333"
+   },
+   "eventTime": "2026-10-14T12:46:00Z",
+   "eventSource": "s3.amazonaws.com",
+   "eventName": "ListBuckets",
+   "awsRegion": "us-east-1",
+   "sourceIPAddress": "203.0.113.10",
+   "userAgent": "aws-cli/2.17.0",
+   "requestParameters": null,
+   "responseElements": null,
+   "eventID": "2217bead-dbc4-96cb-8e81-973e0becd7b0",
+   "eventType": "AwsApiCall",
+   "recipientAccountId": "111122223333"
+  },
+  {
+   "eventVersion": "1.09",
+   "userIdentity": {
+    "type": "AssumedRole",
+    "arn": "arn:aws:sts::111122223333:assumed-role/ci-deploy/github-actions",
+    "accountId": "111122223333"
+   },
+   "eventTime": "2026-10-14T13:05:00Z",
+   "eventSource": "ec2.amazonaws.com",
+   "eventName": "DescribeSecurityGroups",
+   "awsRegion": "us-east-1",
+   "sourceIPAddress": "140.82.112.4",
+   "userAgent": "aws-cli/2.17.0",
+   "requestParameters": null,
+   "responseElements": null,
+   "eventID": "153e7c2a-26a2-c0bd-3b12-87fff52ddf5d",
+   "eventType": "AwsApiCall",
+   "recipientAccountId": "111122223333"
+  },
+  {
+   "eventVersion": "1.09",
+   "userIdentity": {
+    "type": "IAMUser",
+    "userName": "alice",
+    "arn": "arn:aws:iam::111122223333:user/alice",
+    "accountId": "111122223333"
+   },
+   "eventTime": "2026-10-14T13:08:00Z",
+   "eventSource": "s3.amazonaws.com",
+   "eventName": "GetObject",
+   "awsRegion": "us-east-1",
+   "sourceIPAddress": "203.0.113.10",
+   "userAgent": "aws-cli/2.17.0",
+   "requestParameters": null,
+   "responseElements": null,
+   "eventID": "6bf46c69-7d2c-af82-eeea-cbe226e87555",
+   "eventType": "AwsApiCall",
+   "recipientAccountId": "111122223333"
+  },
+  {
+   "eventVersion": "1.09",
+   "userIdentity": {
+    "type": "IAMUser",
+    "userName": "bob",
+    "arn": "arn:aws:iam::111122223333:user/bob",
+    "accountId": "111122223333"
+   },
+   "eventTime": "2026-10-14T13:09:00Z",
+   "eventSource": "s3.amazonaws.com",
+   "eventName": "GetObject",
+   "awsRegion": "us-east-1",
+   "sourceIPAddress": "203.0.113.22",
+   "userAgent": "aws-cli/2.17.0",
+   "requestParameters": null,
+   "responseElements": null,
+   "eventID": "f3fe39c0-5190-88f5-90fb-bd119c1caaf7",
+   "eventType": "AwsApiCall",
+   "recipientAccountId": "111122223333"
+  },
+  {
+   "eventVersion": "1.09",
+   "userIdentity": {
+    "type": "IAMUser",
+    "userName": "alice",
+    "arn": "arn:aws:iam::111122223333:user/alice",
+    "accountId": "111122223333"
+   },
+   "eventTime": "2026-10-14T13:24:00Z",
+   "eventSource": "s3.amazonaws.com",
+   "eventName": "ListBuckets",
+   "awsRegion": "us-east-1",
+   "sourceIPAddress": "203.0.113.10",
+   "userAgent": "aws-cli/2.17.0",
+   "requestParameters": null,
+   "responseElements": null,
+   "eventID": "4affdcd1-3678-bc8d-4078-3f0a072a98d2",
+   "eventType": "AwsApiCall",
+   "recipientAccountId": "111122223333"
+  },
+  {
+   "eventVersion": "1.09",
+   "userIdentity": {
+    "type": "AssumedRole",
+    "arn": "arn:aws:sts::111122223333:assumed-role/ci-deploy/github-actions",
+    "accountId": "111122223333"
+   },
+   "eventTime": "2026-10-14T13:39:00Z",
+   "eventSource": "sts.amazonaws.com",
+   "eventName": "GetCallerIdentity",
+   "awsRegion": "us-east-1",
+   "sourceIPAddress": "140.82.112.4",
+   "userAgent": "aws-cli/2.17.0",
+   "requestParameters": null,
+   "responseElements": null,
+   "eventID": "830e07bc-1e39-8f10-12bd-4acefaecbd38",
+   "eventType": "AwsApiCall",
+   "recipientAccountId": "111122223333"
+  },
+  {
+   "eventVersion": "1.09",
+   "userIdentity": {
+    "type": "AssumedRole",
+    "arn": "arn:aws:sts::111122223333:assumed-role/ci-deploy/github-actions",
+    "accountId": "111122223333"
+   },
+   "eventTime": "2026-10-14T13:57:00Z",
+   "eventSource": "ec2.amazonaws.com",
+   "eventName": "DescribeSecurityGroups",
+   "awsRegion": "us-east-1",
+   "sourceIPAddress": "140.82.112.4",
+   "userAgent": "aws-cli/2.17.0",
+   "requestParameters": null,
+   "responseElements": null,
+   "eventID": "1a28f7b3-24e4-e25a-15fc-899e4fd58dbe",
+   "eventType": "AwsApiCall",
+   "recipientAccountId": "111122223333"
+  },
+  {
+   "eventVersion": "1.09",
+   "userIdentity": {
+    "type": "IAMUser",
+    "userName": "bob",
+    "arn": "arn:aws:iam::111122223333:user/bob",
+    "accountId": "111122223333"
+   },
+   "eventTime": "2026-10-14T14:05:00Z",
+   "eventSource": "ec2.amazonaws.com",
+   "eventName": "DescribeInstances",
+   "awsRegion": "us-east-1",
+   "sourceIPAddress": "203.0.113.22",
+   "userAgent": "aws-cli/2.17.0",
+   "requestParameters": null,
+   "responseElements": null,
+   "eventID": "4f426dcb-b394-fb36-bb2d-420f0f88080b",
+   "eventType": "AwsApiCall",
+   "recipientAccountId": "111122223333"
+  },
+  {
+   "eventVersion": "1.09",
+   "userIdentity": {
+    "type": "IAMUser",
+    "userName": "alice",
+    "arn": "arn:aws:iam::111122223333:user/alice",
+    "accountId": "111122223333"
+   },
+   "eventTime": "2026-10-14T14:05:00Z",
+   "eventSource": "ec2.amazonaws.com",
+   "eventName": "DescribeInstances",
+   "awsRegion": "us-east-1",
+   "sourceIPAddress": "203.0.113.10",
+   "userAgent": "aws-cli/2.17.0",
+   "requestParameters": null,
+   "responseElements": null,
+   "eventID": "fa529ba3-fe3b-fada-7cf2-0724d953ee26",
+   "eventType": "AwsApiCall",
+   "recipientAccountId": "111122223333"
+  },
+  {
+   "eventVersion": "1.09",
+   "userIdentity": {
+    "type": "IAMUser",
+    "userName": "bob",
+    "arn": "arn:aws:iam::111122223333:user/bob",
+    "accountId": "111122223333"
+   },
+   "eventTime": "2026-10-14T14:05:00Z",
+   "eventSource": "s3.amazonaws.com",
+   "eventName": "GetObject",
+   "awsRegion": "us-east-1",
+   "sourceIPAddress": "203.0.113.22",
+   "userAgent": "aws-cli/2.17.0",
+   "requestParameters": null,
+   "responseElements": null,
+   "eventID": "2188287e-8c5c-715f-8c74-fc1e27e9e06f",
+   "eventType": "AwsApiCall",
+   "recipientAccountId": "111122223333"
+  },
+  {
+   "eventVersion": "1.09",
+   "userIdentity": {
+    "type": "IAMUser",
+    "userName": "bob",
+    "arn": "arn:aws:iam::111122223333:user/bob",
+    "accountId": "111122223333"
+   },
+   "eventTime": "2026-10-14T14:14:00Z",
+   "eventSource": "sts.amazonaws.com",
+   "eventName": "GetCallerIdentity",
+   "awsRegion": "us-east-1",
+   "sourceIPAddress": "203.0.113.22",
+   "userAgent": "aws-cli/2.17.0",
+   "requestParameters": null,
+   "responseElements": null,
+   "eventID": "e8c14743-7abe-c539-007d-1034d726c86b",
+   "eventType": "AwsApiCall",
+   "recipientAccountId": "111122223333"
+  },
+  {
+   "eventVersion": "1.09",
+   "userIdentity": {
+    "type": "IAMUser",
+    "userName": "alice",
+    "arn": "arn:aws:iam::111122223333:user/alice",
+    "accountId": "111122223333"
+   },
+   "eventTime": "2026-10-14T14:28:00Z",
+   "eventSource": "s3.amazonaws.com",
+   "eventName": "ListBuckets",
+   "awsRegion": "us-east-1",
+   "sourceIPAddress": "203.0.113.10",
+   "userAgent": "aws-cli/2.17.0",
+   "requestParameters": null,
+   "responseElements": null,
+   "eventID": "4720771f-8ca8-1811-66d2-287672fdf202",
+   "eventType": "AwsApiCall",
+   "recipientAccountId": "111122223333"
+  },
+  {
+   "eventVersion": "1.09",
+   "userIdentity": {
+    "type": "IAMUser",
+    "userName": "alice",
+    "arn": "arn:aws:iam::111122223333:user/alice",
+    "accountId": "111122223333"
+   },
+   "eventTime": "2026-10-14T14:48:00Z",
+   "eventSource": "s3.amazonaws.com",
+   "eventName": "ListBuckets",
+   "awsRegion": "us-east-1",
+   "sourceIPAddress": "203.0.113.10",
+   "userAgent": "aws-cli/2.17.0",
+   "requestParameters": null,
+   "responseElements": null,
+   "eventID": "5c9bcf35-873b-e078-f3b7-a50df373ca53",
+   "eventType": "AwsApiCall",
+   "recipientAccountId": "111122223333"
+  },
+  {
+   "eventVersion": "1.09",
+   "userIdentity": {
+    "type": "IAMUser",
+    "userName": "alice",
+    "arn": "arn:aws:iam::111122223333:user/alice",
+    "accountId": "111122223333"
+   },
+   "eventTime": "2026-10-14T15:08:00Z",
+   "eventSource": "s3.amazonaws.com",
+   "eventName": "GetObject",
+   "awsRegion": "us-east-1",
+   "sourceIPAddress": "203.0.113.10",
+   "userAgent": "aws-cli/2.17.0",
+   "requestParameters": null,
+   "responseElements": null,
+   "eventID": "81e74ef5-e8e2-5d94-0ed9-04759531985d",
+   "eventType": "AwsApiCall",
+   "recipientAccountId": "111122223333"
+  },
+  {
+   "eventVersion": "1.09",
+   "userIdentity": {
+    "type": "IAMUser",
+    "userName": "bob",
+    "arn": "arn:aws:iam::111122223333:user/bob",
+    "accountId": "111122223333"
+   },
+   "eventTime": "2026-10-14T15:33:00Z",
+   "eventSource": "s3.amazonaws.com",
+   "eventName": "ListBuckets",
+   "awsRegion": "us-east-1",
+   "sourceIPAddress": "203.0.113.22",
+   "userAgent": "aws-cli/2.17.0",
+   "requestParameters": null,
+   "responseElements": null,
+   "eventID": "a38fd547-923a-7369-94e3-bf911a61dbe2",
+   "eventType": "AwsApiCall",
+   "recipientAccountId": "111122223333"
+  },
+  {
+   "eventVersion": "1.09",
+   "userIdentity": {
+    "type": "AssumedRole",
+    "arn": "arn:aws:sts::111122223333:assumed-role/ci-deploy/github-actions",
+    "accountId": "111122223333"
+   },
+   "eventTime": "2026-10-14T15:48:00Z",
+   "eventSource": "sts.amazonaws.com",
+   "eventName": "GetCallerIdentity",
+   "awsRegion": "us-east-1",
+   "sourceIPAddress": "140.82.112.4",
+   "userAgent": "aws-cli/2.17.0",
+   "requestParameters": null,
+   "responseElements": null,
+   "eventID": "babced20-57ee-05cd-e009-02c77ebff206",
+   "eventType": "AwsApiCall",
+   "recipientAccountId": "111122223333"
+  },
+  {
+   "eventVersion": "1.09",
+   "userIdentity": {
+    "type": "AssumedRole",
+    "arn": "arn:aws:sts::111122223333:assumed-role/ci-deploy/github-actions",
+    "accountId": "111122223333"
+   },
+   "eventTime": "2026-10-14T15:53:00Z",
+   "eventSource": "ec2.amazonaws.com",
+   "eventName": "DescribeInstances",
+   "awsRegion": "us-east-1",
+   "sourceIPAddress": "140.82.112.4",
+   "userAgent": "aws-cli/2.17.0",
+   "requestParameters": null,
+   "responseElements": null,
+   "eventID": "451abd81-f1d6-9ed6-17f5-e837d70820fe",
+   "eventType": "AwsApiCall",
+   "recipientAccountId": "111122223333"
+  },
+  {
+   "eventVersion": "1.09",
+   "userIdentity": {
+    "type": "AssumedRole",
+    "arn": "arn:aws:sts::111122223333:assumed-role/ci-deploy/github-actions",
+    "accountId": "111122223333"
+   },
+   "eventTime": "2026-10-14T16:04:00Z",
+   "eventSource": "s3.amazonaws.com",
+   "eventName": "ListBuckets",
+   "awsRegion": "us-east-1",
+   "sourceIPAddress": "140.82.112.4",
+   "userAgent": "aws-cli/2.17.0",
+   "requestParameters": null,
+   "responseElements": null,
+   "eventID": "faf55496-988a-f3fb-d396-30d69c9011ef",
+   "eventType": "AwsApiCall",
+   "recipientAccountId": "111122223333"
+  },
+  {
+   "eventVersion": "1.09",
+   "userIdentity": {
+    "type": "IAMUser",
+    "userName": "alice",
+    "arn": "arn:aws:iam::111122223333:user/alice",
+    "accountId": "111122223333"
+   },
+   "eventTime": "2026-10-14T16:25:00Z",
+   "eventSource": "ec2.amazonaws.com",
+   "eventName": "DescribeSecurityGroups",
+   "awsRegion": "us-east-1",
+   "sourceIPAddress": "203.0.113.10",
+   "userAgent": "aws-cli/2.17.0",
+   "requestParameters": null,
+   "responseElements": null,
+   "eventID": "49952399-c4aa-eac1-37dc-76fb0f17a300",
+   "eventType": "AwsApiCall",
+   "recipientAccountId": "111122223333"
+  },
+  {
+   "eventVersion": "1.09",
+   "userIdentity": {
+    "type": "IAMUser",
+    "userName": "bob",
+    "arn": "arn:aws:iam::111122223333:user/bob",
+    "accountId": "111122223333"
+   },
+   "eventTime": "2026-10-14T17:02:00Z",
+   "eventSource": "ec2.amazonaws.com",
+   "eventName": "DescribeSecurityGroups",
+   "awsRegion": "us-east-1",
+   "sourceIPAddress": "203.0.113.22",
+   "userAgent": "aws-cli/2.17.0",
+   "requestParameters": null,
+   "responseElements": null,
+   "eventID": "e3151288-62c3-3a4f-b774-eb5248db40af",
+   "eventType": "AwsApiCall",
+   "recipientAccountId": "111122223333"
+  },
+  {
+   "eventVersion": "1.09",
+   "userIdentity": {
+    "type": "AssumedRole",
+    "arn": "arn:aws:sts::111122223333:assumed-role/ci-deploy/github-actions",
+    "accountId": "111122223333"
+   },
+   "eventTime": "2026-10-14T17:08:00Z",
+   "eventSource": "ec2.amazonaws.com",
+   "eventName": "DescribeInstances",
+   "awsRegion": "us-east-1",
+   "sourceIPAddress": "140.82.112.4",
+   "userAgent": "aws-cli/2.17.0",
+   "requestParameters": null,
+   "responseElements": null,
+   "eventID": "e8e72789-1eb2-0109-a91c-2439d5ab8b4d",
+   "eventType": "AwsApiCall",
+   "recipientAccountId": "111122223333"
+  },
+  {
+   "eventVersion": "1.09",
+   "userIdentity": {
+    "type": "AssumedRole",
+    "arn": "arn:aws:sts::111122223333:assumed-role/ci-deploy/github-actions",
+    "accountId": "111122223333"
+   },
+   "eventTime": "2026-10-14T17:24:00Z",
+   "eventSource": "ec2.amazonaws.com",
+   "eventName": "DescribeInstances",
+   "awsRegion": "us-east-1",
+   "sourceIPAddress": "140.82.112.4",
+   "userAgent": "aws-cli/2.17.0",
+   "requestParameters": null,
+   "responseElements": null,
+   "eventID": "2b0537e6-5aff-b229-7631-a992f0ce5835",
+   "eventType": "AwsApiCall",
+   "recipientAccountId": "111122223333"
+  },
+  {
+   "eventVersion": "1.09",
+   "userIdentity": {
+    "type": "AssumedRole",
+    "arn": "arn:aws:sts::111122223333:assumed-role/ci-deploy/github-actions",
+    "accountId": "111122223333"
+   },
+   "eventTime": "2026-10-14T18:19:00Z",
+   "eventSource": "ec2.amazonaws.com",
+   "eventName": "DescribeSecurityGroups",
+   "awsRegion": "us-east-1",
+   "sourceIPAddress": "140.82.112.4",
+   "userAgent": "aws-cli/2.17.0",
+   "requestParameters": null,
+   "responseElements": null,
+   "eventID": "15bd448f-f261-49ed-be4c-5ce666c1494e",
+   "eventType": "AwsApiCall",
+   "recipientAccountId": "111122223333"
+  },
+  {
+   "eventVersion": "1.09",
+   "userIdentity": {
+    "type": "IAMUser",
+    "userName": "alice",
+    "arn": "arn:aws:iam::111122223333:user/alice",
+    "accountId": "111122223333"
+   },
+   "eventTime": "2026-10-14T18:22:00Z",
+   "eventSource": "s3.amazonaws.com",
+   "eventName": "ListBuckets",
+   "awsRegion": "us-east-1",
+   "sourceIPAddress": "203.0.113.10",
+   "userAgent": "aws-cli/2.17.0",
+   "requestParameters": null,
+   "responseElements": null,
+   "eventID": "26b1cffc-070d-7109-2085-9634fe3c9c8f",
+   "eventType": "AwsApiCall",
+   "recipientAccountId": "111122223333"
+  },
+  {
+   "eventVersion": "1.09",
+   "userIdentity": {
+    "type": "IAMUser",
+    "userName": "alice",
+    "arn": "arn:aws:iam::111122223333:user/alice",
+    "accountId": "111122223333"
+   },
+   "eventTime": "2026-10-14T18:37:00Z",
+   "eventSource": "ec2.amazonaws.com",
+   "eventName": "DescribeSecurityGroups",
+   "awsRegion": "us-east-1",
+   "sourceIPAddress": "203.0.113.10",
+   "userAgent": "aws-cli/2.17.0",
+   "requestParameters": null,
+   "responseElements": null,
+   "eventID": "f3aed0b6-c7ac-1491-def8-8334e647cb8f",
+   "eventType": "AwsApiCall",
+   "recipientAccountId": "111122223333"
+  },
+  {
+   "eventVersion": "1.09",
+   "userIdentity": {
+    "type": "AssumedRole",
+    "arn": "arn:aws:sts::111122223333:assumed-role/ci-deploy/github-actions",
+    "accountId": "111122223333"
+   },
+   "eventTime": "2026-10-14T18:47:00Z",
+   "eventSource": "s3.amazonaws.com",
+   "eventName": "GetObject",
+   "awsRegion": "us-east-1",
+   "sourceIPAddress": "140.82.112.4",
+   "userAgent": "aws-cli/2.17.0",
+   "requestParameters": null,
+   "responseElements": null,
+   "eventID": "29540a6e-b12a-a1f6-d42f-ddbb7a86f7a2",
+   "eventType": "AwsApiCall",
+   "recipientAccountId": "111122223333"
+  },
+  {
+   "eventVersion": "1.09",
+   "userIdentity": {
+    "type": "AssumedRole",
+    "arn": "arn:aws:sts::111122223333:assumed-role/ci-deploy/github-actions",
+    "accountId": "111122223333"
+   },
+   "eventTime": "2026-10-14T19:15:00Z",
+   "eventSource": "ec2.amazonaws.com",
+   "eventName": "DescribeSecurityGroups",
+   "awsRegion": "us-east-1",
+   "sourceIPAddress": "140.82.112.4",
+   "userAgent": "aws-cli/2.17.0",
+   "requestParameters": null,
+   "responseElements": null,
+   "eventID": "5c90a958-7403-e430-ec66-a78795e761d1",
+   "eventType": "AwsApiCall",
+   "recipientAccountId": "111122223333"
+  },
+  {
+   "eventVersion": "1.09",
+   "userIdentity": {
+    "type": "IAMUser",
+    "userName": "bob",
+    "arn": "arn:aws:iam::111122223333:user/bob",
+    "accountId": "111122223333"
+   },
+   "eventTime": "2026-10-14T19:17:00Z",
+   "eventSource": "s3.amazonaws.com",
+   "eventName": "GetObject",
+   "awsRegion": "us-east-1",
+   "sourceIPAddress": "203.0.113.22",
+   "userAgent": "aws-cli/2.17.0",
+   "requestParameters": null,
+   "responseElements": null,
+   "eventID": "cfbf3360-9cfc-8652-3919-4242a2eddbbd",
+   "eventType": "AwsApiCall",
+   "recipientAccountId": "111122223333"
+  },
+  {
+   "eventVersion": "1.09",
+   "userIdentity": {
+    "type": "IAMUser",
+    "userName": "alice",
+    "arn": "arn:aws:iam::111122223333:user/alice",
+    "accountId": "111122223333"
+   },
+   "eventTime": "2026-10-14T19:27:00Z",
+   "eventSource": "s3.amazonaws.com",
+   "eventName": "ListBuckets",
+   "awsRegion": "us-east-1",
+   "sourceIPAddress": "203.0.113.10",
+   "userAgent": "aws-cli/2.17.0",
+   "requestParameters": null,
+   "responseElements": null,
+   "eventID": "cda6c6fd-bd68-5167-6693-4036d17e4497",
+   "eventType": "AwsApiCall",
+   "recipientAccountId": "111122223333"
+  },
+  {
+   "eventVersion": "1.09",
+   "userIdentity": {
+    "type": "IAMUser",
+    "userName": "bob",
+    "arn": "arn:aws:iam::111122223333:user/bob",
+    "accountId": "111122223333"
+   },
+   "eventTime": "2026-10-14T19:28:00Z",
+   "eventSource": "s3.amazonaws.com",
+   "eventName": "GetObject",
+   "awsRegion": "us-east-1",
+   "sourceIPAddress": "203.0.113.22",
+   "userAgent": "aws-cli/2.17.0",
+   "requestParameters": null,
+   "responseElements": null,
+   "eventID": "f8be8831-f237-e45a-cd02-c5e116353d03",
+   "eventType": "AwsApiCall",
+   "recipientAccountId": "111122223333"
+  },
+  {
+   "eventVersion": "1.09",
+   "userIdentity": {
+    "type": "IAMUser",
+    "userName": "bob",
+    "arn": "arn:aws:iam::111122223333:user/bob",
+    "accountId": "111122223333"
+   },
+   "eventTime": "2026-10-14T20:11:00Z",
+   "eventSource": "s3.amazonaws.com",
+   "eventName": "ListBuckets",
+   "awsRegion": "us-east-1",
+   "sourceIPAddress": "203.0.113.22",
+   "userAgent": "aws-cli/2.17.0",
+   "requestParameters": null,
+   "responseElements": null,
+   "eventID": "254b0c4e-010c-4759-482c-9cbc43435cc5",
+   "eventType": "AwsApiCall",
+   "recipientAccountId": "111122223333"
+  },
+  {
+   "eventVersion": "1.09",
+   "userIdentity": {
+    "type": "IAMUser",
+    "userName": "bob",
+    "arn": "arn:aws:iam::111122223333:user/bob",
+    "accountId": "111122223333"
+   },
+   "eventTime": "2026-10-14T20:55:00Z",
+   "eventSource": "sts.amazonaws.com",
+   "eventName": "GetCallerIdentity",
+   "awsRegion": "us-east-1",
+   "sourceIPAddress": "203.0.113.22",
+   "userAgent": "aws-cli/2.17.0",
+   "requestParameters": null,
+   "responseElements": null,
+   "eventID": "64e50cad-6623-7a04-65e7-e4236472f1a3",
+   "eventType": "AwsApiCall",
+   "recipientAccountId": "111122223333"
+  },
+  {
+   "eventVersion": "1.09",
+   "userIdentity": {
+    "type": "AssumedRole",
+    "arn": "arn:aws:sts::111122223333:assumed-role/ci-deploy/github-actions",
+    "accountId": "111122223333"
+   },
+   "eventTime": "2026-10-14T20:56:00Z",
+   "eventSource": "s3.amazonaws.com",
+   "eventName": "GetObject",
+   "awsRegion": "us-east-1",
+   "sourceIPAddress": "140.82.112.4",
+   "userAgent": "aws-cli/2.17.0",
+   "requestParameters": null,
+   "responseElements": null,
+   "eventID": "7f26144b-9828-9fcd-59a5-4a7bb1fee08f",
+   "eventType": "AwsApiCall",
+   "recipientAccountId": "111122223333"
+  },
+  {
+   "eventVersion": "1.09",
+   "userIdentity": {
+    "type": "IAMUser",
+    "userName": "alice",
+    "arn": "arn:aws:iam::111122223333:user/alice",
+    "accountId": "111122223333"
+   },
+   "eventTime": "2026-10-14T21:04:00Z",
+   "eventSource": "ec2.amazonaws.com",
+   "eventName": "DescribeSecurityGroups",
+   "awsRegion": "us-east-1",
+   "sourceIPAddress": "203.0.113.10",
+   "userAgent": "aws-cli/2.17.0",
+   "requestParameters": null,
+   "responseElements": null,
+   "eventID": "b4d66a3a-4746-9a4d-8cdb-305fdd2e1609",
+   "eventType": "AwsApiCall",
+   "recipientAccountId": "111122223333"
+  }
+ ]
+}

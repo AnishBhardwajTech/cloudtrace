@@ -1,0 +1,49 @@
+name: CI
+
+on:
+  push:
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    services:
+      mysql:
+        image: mysql:8.4
+        env:
+          MYSQL_ROOT_PASSWORD: root
+          MYSQL_DATABASE: cloudtrace_test
+        ports: ["3306:3306"]
+        options: >-
+          --health-cmd "mysqladmin ping -proot --silent"
+          --health-interval 5s --health-retries 20
+    env:
+      CLOUDTRACE_TEST_MYSQL_URL: jdbc:mysql://localhost:3306/cloudtrace_test?serverTimezone=UTC
+      CLOUDTRACE_TEST_MYSQL_USER: root
+      CLOUDTRACE_TEST_MYSQL_PASSWORD: root
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-java@v5
+        with:
+          distribution: temurin
+          java-version: "17"
+          cache: maven
+      - name: Build and run JUnit 5 tests (H2 + MySQL)
+        run: mvn -B verify
+      - name: Generate sample forensic report
+        run: |
+          export CLOUDTRACE_DB_URL=$CLOUDTRACE_TEST_MYSQL_URL CLOUDTRACE_DB_USER=root CLOUDTRACE_DB_PASSWORD=root
+          java -jar target/cloudtrace.jar case-open --title "CI sample" --investigator github-actions
+          java -jar target/cloudtrace.jar import --case 1 --path sample/cloudtrail-incident.json
+          java -jar target/cloudtrace.jar analyze --case 1
+          java -jar target/cloudtrace.jar report --case 1 --out sample-report.pdf
+      - uses: actions/upload-artifact@v5
+        with:
+          name: cloudtrace
+          path: |
+            target/cloudtrace.jar
+            sample-report.pdf
+            target/site/jacoco/
